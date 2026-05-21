@@ -1,0 +1,34 @@
+# Android
+*.iml
+.gradle/
+local.properties
+*.apk
+*.ap_
+*.dex
+build/
+outputs/
+
+# llama.cpp（作为子目录，不推送到主仓库）
+app/src/main/cpp/llama.cpp/
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+*.ipr
+*.iws
+
+# Gradle
+gradle/wrapper/gradle-wrapper.jar
+
+# 敏感
+*.keystore
+*.jks
+# 构建缓存
+app/.cxx/
+app/build/
+app/src/main/cpp/llama.cpp/
